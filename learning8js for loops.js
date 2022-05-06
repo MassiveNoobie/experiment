@@ -1,4 +1,7 @@
 // tyler garrett's notes & revision for....
+
+// for loops...
+
 // brian holts https://frontendmasters.com/courses/web-development-v2/learning-javascript-exercise/
 // the string to continue adding to frontString
 const repeating = 'a'

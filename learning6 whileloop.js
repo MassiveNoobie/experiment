@@ -1,3 +1,5 @@
+// this is a simple way to learn while loop and variations of how to increment the loop
+
 // set loop to zero
 let loop = 0
 // setting condition to <10

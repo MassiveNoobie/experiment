@@ -11,4 +11,3 @@ while (friendsAtYourParty<10) {
     console.log(friendsAtYourParty)
 }
 console.log("total " + friendsAtYourParty)
-

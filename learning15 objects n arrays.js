@@ -1,14 +1,16 @@
-// object
+// object - uses braces {}
 const person1 = {
     name:"tyler",
     ageRange: "25-35"
 };
+
 // object
 const person2 = {
     name:"isa",
     ageRange: "65-75"
 }
-// function
+
+// function, uses ()
 function suggestMusic(person) {
     if (person.ageRange==="25-35"){
         music1 = "daft punk"
@@ -43,10 +45,10 @@ const dog = {
 
 //calls
 dog.speak("yark yark")
+//concat dog fname into log
 dog.speak(dog.fname+": yee yee")
+//call dog.name from object
 console.log(dog.name)
-
-
 
 //array
 const daysOfWeek = [
@@ -58,4 +60,7 @@ const daysOfWeek = [
     "Saturday",
     "Sunday"
 ]
+//call array
 console.log(daysOfWeek)
+//use space below to practice various ways to call daysOfWeek
+//asdasd
