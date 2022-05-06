@@ -12,5 +12,6 @@ The start;
 5/3/2022    going back through everything to ensure everything clicks        
 5/4/2022 -  going back through everything to ensure everything clicks
 5/5/2022 -  builtins, objects, arrays, properties, functions in objects
-5/6/2022 -  optimizing old notes, walking through uncommented areas and
-            adding clarity where things now more understandable.
+5/6/2022 -  optimizing github, walking through uncommented areas and
+            adding clarity where things are more understandable, improved
+            file naming conditions to increase usability of github repo
