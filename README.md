@@ -9,3 +9,9 @@ The javascript section offers a great way to quickly ramp up, and i also need to
 This is a great place for new javascript developers to see sample code & could be beneficial for those who do not have a computer hand and eager to learn more about javascript.
 
 javascript notes; creating notes to better help me comprehend, test, and debug javascript.
+
+If you found this helpful or want to add more helpful content, please dm me https://twitter.com/itylergarrett
+
+Thanks
+https://TylerGarrett.com
+http://d3.is
