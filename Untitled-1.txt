@@ -1,0 +1,8 @@
+4/29/2022 - today i learned about #javascript while loops and let
+4/30/2022 - studying if statements and loops, let, while
+5/1/2022 -  studying loops and a javascript exercise
+            not understanding exercise, viewing functions
+5/2/2022 -  understanding java script exercise, writing functions,
+            writing functions with scope in mind
+5/4/2022 -  asdasd
+5/5/2022 -  builtins
