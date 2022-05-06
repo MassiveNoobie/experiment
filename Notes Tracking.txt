@@ -1,0 +1,16 @@
+The start;
+            Creating a javascript training wiki for anyone who's unfamiliar with javascript. 
+            Maybe you will enjoy a line by line explanation by someone who isn't a full stack engineer.
+
+4/29/2022 - today i learned about #javascript while loops and let
+            and i made an infinte loop, great.
+4/30/2022 - studying if statements and loops, let, while
+5/1/2022 -  studying loops and a javascript exercise
+            not understanding exercise, viewing functions
+5/2/2022 -  understanding java script exercise, writing functions,
+            writing functions with scope in mind
+5/3/2022    going back through everything to ensure everything clicks        
+5/4/2022 -  going back through everything to ensure everything clicks
+5/5/2022 -  builtins, objects, arrays, properties, functions in objects
+5/6/2022 -  optimizing old notes, walking through uncommented areas and
+            adding clarity where things now more understandable.

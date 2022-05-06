@@ -29,7 +29,7 @@ friendsAtYourParty = friendsAtYourParty +1;
 friendsAtYourParty = friendsAtYourParty +1;
 friendsAtYourParty = friendsAtYourParty +1;
 console.log(friendsAtYourParty + friendAvailableTag)
-console.log("ah fuck who invited 10 people?")
+console.log("ah f*** who invited 10 people?")
 console.log("computer; you did")
 console.log("thanks.")
 console.log("computer; you're welcome and available.")
