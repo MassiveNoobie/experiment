@@ -1,0 +1,22 @@
+<!--    learning more about classes in HTML and how javascript interacts with the HTML
+        making an input field to interact with paragraph 
+        creating an input with a class -->
+<input placeholder= "type into me!" class="input-to-copy"/>
+<!-- creating paragraph text with a class -->
+<p class="p-to-copy-to">Nothing has happened yet.</p>
+
+<!-- starting javascript script in html file-->
+<script>
+    //create variable "input" to interact with the input field
+    const input = document.querySelector('.input-to-copy')
+    //create variable paragraph text to interact with using input field text
+    const paragraph = document.querySelector('.p-to-copy-to')
+
+    //create eventlistener for releasing a key
+    input.addEventListener('keyup', function(){
+        //innerText changes paragraph text
+        //value uses the values passed from input field
+        paragraph.innerText = input.value;
+    })
+//ending javascript script
+</script>

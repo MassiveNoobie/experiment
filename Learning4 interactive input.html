@@ -1,0 +1,32 @@
+
+<!--
+    css
+-->
+<style>
+    .color-box {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+    }
+</style>
+
+<!--
+    html
+-->
+<div class="color-box"></div>
+<input class="color-input" placeholder="type a color here"/>
+
+
+<!--
+    javascript
+-->
+<script>
+    const input= document.querySelector('.color-input')
+    const paragraph= document.querySelector('.color-box')
+
+    //listening to change event
+    //if you de-select, it changes
+    input.addEventListener("change",function(){
+        paragraph.style.backgroundColor = input.value
+    })
+</script>
