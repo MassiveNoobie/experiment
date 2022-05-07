@@ -1,0 +1,16 @@
+<style>
+    .red-square {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+    }
+</style>
+<div class="red-square"></div>
+<script>
+    // query selector gets this first time this happens on the html page
+    // const redSquare becomes the div class
+    const redSquare = document.querySelector('.red-square');
+    // now that redSquare is the div class, we can control the color with js
+    // changing style background color from tomato to orange
+    redSquare.style.backgroundColor = 'yellow'
+</script>
