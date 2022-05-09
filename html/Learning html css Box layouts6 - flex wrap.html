@@ -24,16 +24,20 @@
         width: 100px;
     } 
 /* 
- *  
  *  if you flex, 
  *  everything squishes vs breaking to new lines
  *  
- *  
+ *  by default, display flex expects we are trying to put as much as possible in the same line
+ *  we need to tell it "flex-wrap:wrap;" to wrap
  */
     .flex-container{
     display: flex;
     width: 100%;
     border: 1px solid black;
+/* 
+ *  adding flex-wrap offers ability to "wrap" what would be squishing
+ */
+    flex-wrap: wrap;
 }
 
 /* 

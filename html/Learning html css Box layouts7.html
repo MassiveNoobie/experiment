@@ -1,4 +1,8 @@
 <style>
+/* 
+ * if these documents help 1 person in the future,
+ * that person will help someone else
+ */
     *{
         box-sizing: border-box;
     }
@@ -24,16 +28,22 @@
         width: 100px;
     } 
 /* 
- *  
  *  if you flex, 
  *  everything squishes vs breaking to new lines
  *  
- *  
+ *  by default, display flex expects we are trying to put as much as possible in the same line
+ *  we need to tell it "flex-wrap:wrap;" to wrap
  */
     .flex-container{
     display: flex;
     width: 100%;
     border: 1px solid black;
+/* 
+ *  adding flex-wrap offers ability to "wrap" what would be squishing
+ *  "super cool" capability 
+ */
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
 }
 
 /* 
