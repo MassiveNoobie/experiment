@@ -1,4 +1,4 @@
-# experiment - a hub of notes related to javascript
+# javascript, html, & css with comments
 
 ohHi = "hello world."
 
