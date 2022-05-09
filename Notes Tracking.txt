@@ -15,3 +15,6 @@ The start;
 5/6/2022 -  optimizing github, walking through uncommented areas and
             adding clarity where things are more understandable, improved
             file naming conditions to increase usability of github repo
+5/7/2022 -  studying CSS courses
+5/8/2022 -  happy mothers day, making calculator, using some CSS knowledge
+            building number grid, and using interactive JS to begin the calc

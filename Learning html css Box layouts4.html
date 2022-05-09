@@ -1,0 +1,46 @@
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .box-1{
+        border: 1px solid black;
+        color: white;
+        background-color: blue;
+        height: 150px;
+        width: 300px;
+    }
+    .box-2{
+        border: 1px solid black;
+        color: white;
+        background-color: red;
+        height: 100px;
+        width: 300px;
+    }
+    .box-3{
+        border: 1px solid black;
+        color: white;
+        background-color: green;
+        height: 200px;
+        width: 100px;
+    } 
+/* 
+ *  commonly; use floats where you can't use flex
+ *  limitation of float;
+ *  box 3 will never be higher than box2
+ *  a div will never be higher than a div above it in code
+ */
+.floated .box {
+    float: left;
+}
+
+/* 
+ *  if you put a "space after .floated" you're saying it's a box inside of floated
+ *  a descendent of 
+ *  and box inside of any floated
+ */
+</style>
+<div class="floated">
+    <div class="box box-1">1</div>
+    <div class="box box-2">2</div>
+    <div class="box box-3">3</div>
+</div>

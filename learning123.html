@@ -1,0 +1,54 @@
+<style>
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: black;
+    border-style: double;
+    border-color: yellow;
+}
+
+.grid-hover:hover {
+    background-color: rebeccapurple;
+    color: white;
+    /* shadow text */
+    text-shadow: 2px 2px black;
+    border-color: black;
+}
+
+</style>
+<div class="grid">
+  <div class="grid-hover">7</div>
+  <div class="grid-hover">8</div>
+  <div class="grid-hover">9</div>
+  <div class="grid-hover">4</div>
+  <div class="grid-hover">5</div>
+  <div class="grid-hover">6</div>
+  <div class="grid-hover">1</div>
+  <div class="grid-hover">2</div>
+  <div class="grid-hover">3</div>  
+</div>
+<p class="p-to-copy-to">Press Buttons To do Math</p>
+
+<script>
+    //get grid 
+    const input = document.querySelector('.grid-hover')
+    //get text
+    const paragraph = document.querySelector('.p-to-copy-to')
+
+    //create eventlistener for releasing a key
+    input.addEventListener("click", function(){
+        //innerText changes paragraph text
+        //value uses the values passed from input field
+        paragraph.innerText = input.textContent;
+        console.log(input.textContent)
+    })
+//ending javascript script
+</script>
