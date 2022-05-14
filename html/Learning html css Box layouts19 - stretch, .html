@@ -1,0 +1,66 @@
+<style>
+    /* 
+        trying to build a calculator, testing grounds*/
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .site {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .box{
+        border: 1px dotted rgb(214, 73, 73);
+        color: black;
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        display: flex;
+            align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container {
+        display: flex;
+        width: 100%;
+        border: 5px solid black;
+    }
+    /* 
+        stretch content top to bottom*/
+    .ai-stretch {
+        align-items: stretch;
+        height: 100px;
+    }
+    /* 
+        no-height added to allow stretch to work.*/
+    .no-height {
+        height: inherit;
+    }
+    /* 
+    spaces content from middle equally and pads on sides*/
+    .jc-sa {
+        justify-content: space-around;
+    }
+</style>
+<div class="site">
+<div class="flex-container ai-stretch ">
+    <div class="box no-height">1</div>
+    <div class="box no-height">2</div>
+    <div class="box no-height">3</div>
+</div>
+
+<div class="flex-container ai-stretch jc-sa">
+    <div class="box no-height">4</div>
+    <div class="box no-height">5</div>
+    <div class="box no-height">6</div>
+</div>
+
+<div class="flex-container ai-stretch jc-sa">
+    <div class="box no-height">7</div>
+    <div class="box no-height">8</div>
+    <div class="box no-height">9</div>
+</div>
+
+</div>

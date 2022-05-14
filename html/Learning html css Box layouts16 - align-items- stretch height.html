@@ -1,0 +1,62 @@
+<style>
+/* 
+
+ */
+    *{
+        box-sizing: border-box;
+    }
+    .box-1{
+        border: 1px solid black;
+        color: white;
+        background-color: blue;
+        height: 150px;
+        width: 300px;
+    }
+    .box-2{
+        border: 1px solid black;
+        color: white;
+        background-color: red;
+        height: 100px;
+        width: 300px;
+    }
+    .box-3{
+        border: 1px solid black;
+        color: white;
+        background-color: green;
+        height: 200px;
+        width: 100px;
+    } 
+/* 
+
+ */
+    .flex-container {
+        display: flex;
+        width: 100%;
+        border: 1px solid black;
+
+    }
+/* 
+    stretch content top to bottom
+*/
+    .ai-stretch {
+        align-items: stretch;
+        height: 300px;
+    }
+/* 
+    no-height added to allow stretch to work.
+*/
+    .no-height {
+        height: inherit;
+    }
+/* 
+ *   
+ *  need to add no-height into the children box1 through box3
+ --> other wise this isn't going to work
+ *  lesson 17 covers how to stretch box 1 and 2 to box 3 size.
+ */
+</style>
+<div class="flex-container ai-stretch">
+    <div class="box-1 no-height">1</div>
+    <div class="box-2 no-height">2</div>
+    <div class="box-3 no-height">3</div>
+</div>
