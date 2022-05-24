@@ -1,0 +1,46 @@
+/* 
+*  
+*  building a news paper website
+*  
+*/ 
+
+*{
+    box-sizing: border-box;
+}
+.box-1{
+    border: 1px solid black;
+    color: white;
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+}
+.box-2{
+    border: 1px solid black;
+    color: white;
+    background-color: red;
+    height: 100px;
+    width: 300px;
+}
+.box-3{
+    border: 1px solid black;
+    color: white;
+    background-color: green;
+    height: 200px;
+    width: 100px;
+} 
+/* 
+*  if you flex, 
+*  everything squishes vs breaking to new lines
+*  
+*  by default, display flex expects we are trying to put as much as possible in the same line
+*  we need to tell it "flex-wrap:wrap;" to wrap
+*/
+.flex-container{
+display: flex;
+width: 100%;
+border: 1px solid black;
+/* 
+*  adding flex-wrap offers ability to "wrap" what would be squishing
+*/
+flex-wrap: wrap;
+}
