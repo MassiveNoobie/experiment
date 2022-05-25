@@ -1,5 +1,6 @@
 The start;
             Creating a javascript training wiki for anyone who's unfamiliar with javascript. 
+            a long the path i need to learn a lot, like CSS, HTML and more.
             Maybe you will enjoy a line by line explanation by someone who isn't a full stack engineer.
 
 4/29/2022 - today i learned about #javascript while loops and let
@@ -18,3 +19,13 @@ The start;
 5/7/2022 -  studying CSS courses
 5/8/2022 -  happy mothers day, making calculator, using some CSS knowledge
             building number grid, and using interactive JS to begin the calc
+5/23/2022-  i've been slowly cleaning up everything, reading what code i write
+            and trying to focus on what i've learned VS rushing through
+            a lot of the time ive spent away doing nothing related to learn this code
+            now that im refreshed, im digging into more exercises, more writing code
+            and more/clearner documentation
+            i learned alpha sort is important when dumping stuff into github
+            causing me to rename things often, but ive been told this is helpful notes
+            my dog recently had a seizure or what appeared to be a seizure yesterday
+            writing code has been a nice break from the inevitable thoughts
+            im creating background images, link text color, and much more

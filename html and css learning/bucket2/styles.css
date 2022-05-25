@@ -7,6 +7,94 @@
 *{
     box-sizing: border-box;
 }
+.h1-box{
+    font-size: larger;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    padding-top: 0px;
+    padding-bottom: 50px;
+
+    display: inline-flexbox;
+
+
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 3px solid black;
+    width: 900px;
+    border-left-style: double;
+    background-color: aquamarine;
+    background-image: url("\pexels-dids-3844790.jpg");
+    color: antiquewhite;
+}
+.link{
+    color: rgb(248, 209, 158);
+}
+.mid{
+    align-items: center;
+    justify-content: center;
+}
+.big-box{
+    display:inline-flex;
+    height: 500px;
+    border: 3px solid black;
+    width: 900px;
+    background-image: url("\pexels-brett-sayles-5326743.jpg");
+    border-left-style: double;
+}
+.mp{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box-1{
+
+    height: 100%;
+    float:flex;
+    display: inline-flexbox;
+    width: 25%;
+
+    background-color: red;
+}
+.box-2{
+
+
+    height: 100%;
+    float:flex;
+    display: inline-flexbox;
+    width: 50%;
+
+    background-color: yellow;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box-3{
+    height: 100%;
+    float:flex;
+    display: inline-flexbox;
+    width: 25%;
+
+    background-color:green;
+}
+.box-4{
+    height: 50%;
+    float:flex;
+    display: inline-flexbox;
+    width: 25%;
+
+    background-color:orange;
+}
+
+
+/* 
 .box-1{
     border: 1px solid black;
     color: white;
@@ -28,6 +116,8 @@
     height: 200px;
     width: 100px;
 } 
+*/
+
 /* 
 *  if you flex, 
 *  everything squishes vs breaking to new lines
@@ -35,12 +125,13 @@
 *  by default, display flex expects we are trying to put as much as possible in the same line
 *  we need to tell it "flex-wrap:wrap;" to wrap
 */
+/*
 .flex-container{
 display: flex;
 width: 100%;
 border: 1px solid black;
 /* 
 *  adding flex-wrap offers ability to "wrap" what would be squishing
-*/
+
 flex-wrap: wrap;
-}
+}*/
